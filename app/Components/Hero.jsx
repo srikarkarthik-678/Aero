@@ -60,7 +60,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className='flexright text-sm sm:text-base md:text-lg leading-relaxed text-gray-300 max-w-xl text-center lg:text-left max-lg:mt-5 max-sm:w-[95%]'>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta nihil minima consectetur ratione sit quam itaque necessitatibus nam? Soluta iure corporis, distinctio aliquam error numquam excepturi natus officia blanditiis dolorem quis quia, pariatur porro assumenda similique obcaecati officiis voluptates dolores, voluptate 
+                       Aero Club is a vibrant community of aerospace engineering enthusiasts exploring flight, space, and aeronautical innovations. We bring together creative minds passionate about aircraft design, rocketry, drones, and aerodynamics. Through workshops, projects, and competitions, members gain hands-on experience in building, testing, and simulating aerospace systems.
                     </div>
                 </div>
 
@@ -72,3 +72,4 @@ const Hero = () => {
 }
 
 export default Hero
+
