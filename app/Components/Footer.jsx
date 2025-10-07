@@ -13,11 +13,6 @@ const Footer = () => {
         <a href="https://www.linkedin.com/company/109036026/admin/dashboard/" className="border border-gray-300 p-2 rounded-full hover:bg-gray-100 transition">
           <FaLinkedin className="text-gray-400 text-lg" />
         </a>
-
-        <a href="#" className="border border-gray-300 p-2 rounded-full hover:bg-gray-100 transition">
-          <FaFacebookF className="text-gray-400 text-lg" />
-        </a>
-
       </div>
 
       <ul className="flex justify-center space-x-6 mb-2 text-xs font-medium">
@@ -36,3 +31,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
