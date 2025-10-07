@@ -7,7 +7,7 @@ const Hover = () => {
             <div className="hoverdetai">
                 <div className="hovercontent font-title">
                     <div className="flex justify-between items-center gap-4 ml-10  p-5 rounded-xl w-[100%] max-md:flex max-md:flex-col-reverse max-md:justify-center max-md:items-center max-md:ml-0">
-                        <div className='text-gray-400 text-md'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe suscipit unde nobis eaque. Ipsum, reprehenderit pariatur eius provident fugit vero, alias perspiciatis, voluptas sequi adipisci libero nemo veniam blanditiis aliquid. Rem necessitatibus ipsam ratione soluta, sunt natus culpa itaque commodi.</div>
+                        <div className='text-gray-400 text-md'>Aero Club helps members build strong profiles in aerospace engineering. Through projects, workshops, and competitions in aircraft design, drones, and rocketry, members gain hands-on experience and technical skills. The club promotes teamwork, problem-solving, and leadership, helping students showcase innovation.</div>
                         <div className="w-[150vw]  flex justify-center items-center max-md:w-[70vw]">
                             <Cubes
                                 gridSize={8}
@@ -29,3 +29,4 @@ const Hover = () => {
 }
 
 export default Hover
+
