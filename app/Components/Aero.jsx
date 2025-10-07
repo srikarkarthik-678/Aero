@@ -12,10 +12,10 @@ const Aero = () => {
                             AERO
                         </div>
                         <div className=' text-lg max-lg:text-sm'>
-                            An Innovative Club of Mahindra Univresity
+                            An Innovative Club of Mahindra University
                         </div>
                         <div className='max-lg:text-sm max-sm:hidden'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et assumenda autem saepe in laudantium placeat illum veniam mollitia deserunt maxime?
+                            Soar beyond limits, explore the skies, and innovate with passion at Aero Club, where aerospace dreams take flight every day.
                         </div>
                     </div>
                 </div>
@@ -25,3 +25,4 @@ const Aero = () => {
 }
 
 export default Aero
+
