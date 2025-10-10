@@ -47,8 +47,7 @@ const Page = () => {
                 return () => clearTimeout(time);
             }
         }
-        else if(menu=="Software")
-        {
+        else if (menu == "Software") {
             if (index < sentence1[0].length) {
                 const time = setTimeout(() => {
                     setindex((prev) => prev + 1)
@@ -56,8 +55,7 @@ const Page = () => {
                 return () => clearTimeout(time);
             }
         }
-        else if(menu=="Electrical")
-        {
+        else if (menu == "Electrical") {
             if (index < sentence2[0].length) {
                 const time = setTimeout(() => {
                     setindex((prev) => prev + 1)
@@ -65,8 +63,7 @@ const Page = () => {
                 return () => clearTimeout(time);
             }
         }
-        else if(menu=="Mechanical")
-        {
+        else if (menu == "Mechanical") {
             if (index < sentence3[0].length) {
                 const time = setTimeout(() => {
                     setindex((prev) => prev + 1)
@@ -74,8 +71,7 @@ const Page = () => {
                 return () => clearTimeout(time);
             }
         }
-        else if(menu=="Aerospace")
-        {
+        else if (menu == "Aerospace") {
             if (index < sentence4[0].length) {
                 const time = setTimeout(() => {
                     setindex((prev) => prev + 1)
@@ -83,8 +79,7 @@ const Page = () => {
                 return () => clearTimeout(time);
             }
         }
-        else if(menu=="Finance")
-        {
+        else if (menu == "Finance") {
             if (index < sentence5[0].length) {
                 const time = setTimeout(() => {
                     setindex((prev) => prev + 1)
@@ -92,8 +87,7 @@ const Page = () => {
                 return () => clearTimeout(time);
             }
         }
-        else if(menu=="Marketing")
-        {
+        else if (menu == "Marketing") {
             if (index < sentence6[0].length) {
                 const time = setTimeout(() => {
                     setindex((prev) => prev + 1)
@@ -101,8 +95,7 @@ const Page = () => {
                 return () => clearTimeout(time);
             }
         }
-        else if(menu=="Logestics")
-        {
+        else if (menu == "Logestics") {
             if (index < sentence7[0].length) {
                 const time = setTimeout(() => {
                     setindex((prev) => prev + 1)
@@ -110,8 +103,7 @@ const Page = () => {
                 return () => clearTimeout(time);
             }
         }
-        else if(menu=="Social")
-        {
+        else if (menu == "Social") {
             if (index < sentence8[0].length) {
                 const time = setTimeout(() => {
                     setindex((prev) => prev + 1)
@@ -119,8 +111,7 @@ const Page = () => {
                 return () => clearTimeout(time);
             }
         }
-        else if(menu=="Event")
-        {
+        else if (menu == "Event") {
             if (index < sentence9[0].length) {
                 const time = setTimeout(() => {
                     setindex((prev) => prev + 1)
@@ -128,8 +119,7 @@ const Page = () => {
                 return () => clearTimeout(time);
             }
         }
-        else if(menu=="R")
-        {
+        else if (menu == "R") {
             if (index < sentence10[0].length) {
                 const time = setTimeout(() => {
                     setindex((prev) => prev + 1)
@@ -144,51 +134,40 @@ const Page = () => {
     }, [menu])
 
     useEffect(() => {
-        if(menu=="Head")
-        {
+        if (menu == "Head") {
             settext(sentence[0].substring(0, index))
         }
-        else if(menu=="Software")
-        {
+        else if (menu == "Software") {
             settext(sentence1[0].substring(0, index))
         }
-        else if(menu=="Electrical")
-        {
+        else if (menu == "Electrical") {
             settext(sentence2[0].substring(0, index))
         }
-        else if(menu=="Mechanical")
-        {
+        else if (menu == "Mechanical") {
             settext(sentence3[0].substring(0, index))
         }
-        else if(menu=="Aerospace")
-        {
+        else if (menu == "Aerospace") {
             settext(sentence4[0].substring(0, index))
         }
-        else if(menu=="Finance")
-        {
+        else if (menu == "Finance") {
             settext(sentence5[0].substring(0, index))
         }
-        else if(menu=="Marketing")
-        {
+        else if (menu == "Marketing") {
             settext(sentence6[0].substring(0, index))
         }
-        else if(menu=="Logestics")
-        {
+        else if (menu == "Logestics") {
             settext(sentence7[0].substring(0, index))
         }
-        else if(menu=="Social")
-        {
+        else if (menu == "Social") {
             settext(sentence8[0].substring(0, index))
         }
-        else if(menu=="Event")
-        {
+        else if (menu == "Event") {
             settext(sentence9[0].substring(0, index))
         }
-        else if(menu=="R")
-        {
+        else if (menu == "R") {
             settext(sentence10[0].substring(0, index))
         }
-        
+
     }, [index, menu])
     const scroll = (direction) => {
         if (scrollRef.current) {
@@ -202,18 +181,22 @@ const Page = () => {
                 <div className="aboutus">
 
                 </div>
-                <div className="backgroundimg w-[100%] h-[60vh] bg-cover bg-center " style={{ backgroundImage: "url('/WhatsApp Image 2025-08-23 at 19.00.14_7dbffdb6.jpg')" }}>
-                    <div className="info flex justify-start items-center h-[80vh]">
-                        <div className="aboutUs flex flex-col pl-5">
-                            <div className="ab text-5xl text-red-600 font-bold">
-                                About Us
-                            </div>
-                            <div className="lorem w-[500px] mt-2 font-medium ttext-white max-sm:w-[300px] text-gray-100">
-                                We are a passionate team of innovators and problem-solvers committed to creating meaningful solutions. With diverse expertise in technology, design, and strategy, we work together to transform ideas into impactful projects.
+                <div className='relative h-[60vh] w-[100%]'>
+                    <div className="backgroundimg w-[100%] h-[60vh] bg-cover bg-center absolute " style={{ backgroundImage: "url('/WhatsApp Image 2025-08-23 at 19.00.14_7dbffdb6.jpg')" }}>
+                        <div className="absolute inset-0 bg-black opacity-40"></div>
+                        <div className="info absolute inset-0 flex justify-start items-center h-[80vh] z-30">
+                            <div className="aboutUs flex flex-col pl-5">
+                                <div className="ab text-5xl text-red-600 font-bold">
+                                    About Us
+                                </div>
+                                <div className="lorem w-[500px] mt-2 font-medium ttext-white max-sm:w-[300px] text-gray-400">
+                                    We are a passionate team of innovators and problem-solvers committed to creating meaningful solutions. With diverse expertise in technology, design, and strategy, we work together to transform ideas into impactful projects.
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div className="Meeth">
                     <div className="meetdetails flex flex-col justify-center items-center mt-6 gap-1">
                         <div className="meetheteam text-2xl">
@@ -369,67 +352,67 @@ const Page = () => {
                         </div>
                         {menu === "Head" && (
                             <div className='mx-16 p-5  rounded-md bg-gray-500/20'>
-                                <DecryptedText text="Harsha Vardhan Reddy" animateOn="view" speed={100} maxIterations={30} characters="ABCD1234!?" className='text-2xl' />
+                                <DecryptedText text="Harsha Vardhan Reddy" animateOn="view" speed={50} maxIterations={30} characters="ひらがなカタ" className='text-2xl' />
                                 <p className='mt-3 text-gray-400 '>{text}</p>
                             </div>
                         )}
                         {menu === "Software" && (
                             <div className='mx-16  p-5 rounded-md bg-gray-500/20  '>
-                                <DecryptedText text="Srikar Karthik" animateOn="view" speed={100} maxIterations={30} characters="ABCD1234!?" className='text-2xl' />
+                                <DecryptedText text="Srikar Karthik" animateOn="view" speed={50} maxIterations={30} characters="ひらがなカタ" className='text-2xl' />
                                 <p className='mt-3 text-gray-400 '>{text}</p>
                             </div>
                         )}
                         {menu === "Electrical" && (
                             <div className='mx-16  p-5 rounded-md bg-gray-500/20'>
-                                <DecryptedText text="Rishith" animateOn="view" speed={100} maxIterations={30} characters="ABCD1234!?" className='text-2xl' />
+                                <DecryptedText text="Rishith" animateOn="view" speed={50} maxIterations={30} characters="ひらがなカタカナ" className='text-2xl' />
                                 <p className='mt-3 text-gray-400 '>{text}</p>
                             </div>
                         )}
                         {menu === "Mechanical" && (
                             <div className='mx-16  p-5 rounded-md bg-gray-500/20'>
-                                <DecryptedText text="Manavendra Reddy" animateOn="view" speed={100} maxIterations={30} characters="ABCD1234!?" className='text-2xl' />
+                                <DecryptedText text="Manavendra Reddy" animateOn="view" speed={50} maxIterations={30} characters="ひらがなカタカナ" className='text-2xl' />
                                 <p className='mt-3 text-gray-400 '>{text}</p>
                             </div>
                         )}
                         {menu === "Aerospace" && (
                             <div className='mx-16  p-5 rounded-md bg-gray-500/20'>
-                                <DecryptedText text="Mitansh" animateOn="view" speed={100} maxIterations={30} characters="ABCD1234!?" className='text-2xl' />
+                                <DecryptedText text="Mitansh" animateOn="view" speed={50} maxIterations={30} characters="ひらがなカタカナ" className='text-2xl' />
                                 <p className='mt-3 text-gray-400 '>{text}</p>
                             </div>
                         )}
                         {menu === "Finance" && (
                             <div className='mx-16  p-5 rounded-md bg-gray-500/20'>
-                                <DecryptedText text="Aryan Goud" animateOn="view" speed={100} maxIterations={30} characters="ABCD1234!?" className='text-2xl' />
+                                <DecryptedText text="Aryan Goud" animateOn="view" speed={50} maxIterations={30} characters="ひらがなカタカナ" className='text-2xl' />
                                 <p className='mt-3 text-gray-400 '>{text}</p>
                             </div>
                         )}
                         {menu === "Marketing" && (
                             <div className='mx-16  p-5 rounded-md bg-gray-500/20'>
-                                <DecryptedText text="Surya Pavan Reddy" animateOn="view" speed={100} maxIterations={30} characters="ABCD1234!?" className='text-2xl' />
+                                <DecryptedText text="Surya Pavan Reddy" animateOn="view" speed={50} maxIterations={30} characters="ひらがなカタカナ" className='text-2xl' />
                                 <p className='mt-3 text-gray-400 '>{text}</p>
                             </div>
                         )}
                         {menu === "Logestics" && (
                             <div className='mx-16  p-5 rounded-md bg-gray-500/20'>
-                                <DecryptedText text="Advait Reddy" animateOn="view" speed={100} maxIterations={30} characters="ABCD1234!?" className='text-2xl' />
+                                <DecryptedText text="Advait Reddy" animateOn="view" speed={50} maxIterations={30} characters="ひらがなカタカナ" className='text-2xl' />
                                 <p className='mt-3 text-gray-400 '>{text}</p>
                             </div>
                         )}
                         {menu === "Social" && (
                             <div className='mx-16  p-5 rounded-md bg-gray-500/20'>
-                                <DecryptedText text="Koushik" animateOn="view" speed={100} maxIterations={30} characters="ABCD1234!?" className='text-2xl' />
+                                <DecryptedText text="Koushik" animateOn="view" speed={50} maxIterations={30} characters="ひらがなカタカナ" className='text-2xl' />
                                 <p className='mt-3 text-gray-400 '>{text}</p>
                             </div>
                         )}
                         {menu === "Event" && (
                             <div className='mx-16  p-5 rounded-md bg-gray-500/20'>
-                                <DecryptedText text="Nithin" animateOn="view" speed={100} maxIterations={30} characters="ABCD1234!?" className='text-2xl' />
+                                <DecryptedText text="Nithin" animateOn="view" speed={50} maxIterations={30} characters="ひらがなカタカナ" className='text-2xl' />
                                 <p className='mt-3 text-gray-400 '>{text}</p>
                             </div>
                         )}
                         {menu === "R" && (
                             <div className='mx-16  p-5 rounded-md bg-gray-500/20'>
-                                <DecryptedText text="Rishikesh" animateOn="view" speed={100} maxIterations={30} characters="ABCD1234!?" className='text-2xl' />
+                                <DecryptedText text="Rishikesh" animateOn="view" speed={50} maxIterations={30} characters="ひらがなカタカナ" className='text-2xl' />
                                 <p className='mt-3 text-gray-400 '>{text}</p>
                             </div>
                         )}
