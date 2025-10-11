@@ -18,7 +18,7 @@ export default function Home() {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover pointer-events-none"
       >
-        <source src="/2611250-uhd_3840_2160_30fps.webm" type="video/mp4" />
+        <source src="/2611250-uhd_3840_2160_30fps.webm" type="video/webm" />
         Your browser does not support the video tag.
       </video>
 
@@ -33,7 +33,7 @@ export default function Home() {
             playsInline
             className="absolute top-0 left-0 w-full h-[105vh] object-cover z-10 pointer-events-none"
           >
-            <source src="/Untitled video - Made with Clipchamp (2).webm" type="video/mp4" />
+            <source src="/Untitled video - Made with Clipchamp (2).webm" type="video/webm" />
             Your browser does not support the video tag.
           </video>
 
