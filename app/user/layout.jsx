@@ -4,7 +4,7 @@ export default function Layout({children})
 {
     return(
         <>
-            <div>
+            <div className="fixed top-0 left-0 w-full z-[9999] bg-black/60 backdrop-blur-md">
                 <Navbar1/>
             </div>
             {children}
