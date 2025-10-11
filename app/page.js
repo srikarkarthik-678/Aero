@@ -11,7 +11,6 @@ import Footer from "./Components/Footer";
 export default function Home() {
   return (
     <div className="relative w-full min-h-screen">
-
       <video
         autoPlay
         muted
@@ -25,16 +24,16 @@ export default function Home() {
 
       <div className="relative z-10 flex flex-col min-h-screen text-white">
 
+ 
         <section className="relative">
-          {/* Background video only for Navbar + Aero */}
           <video
             autoPlay
             muted
             loop
             playsInline
-            className="absolute top-0 left-0 w-full h-[105vh] object-cover -z-10 pointer-events-none"
+            className="absolute top-0 left-0 w-full h-[105vh] object-cover z-10 pointer-events-none"
           >
-            <source src="/Untitled video - Made with Clipchamp (1).mp4" type="video/mp4" />
+            <source src="/Untitled video - Made with Clipchamp (1).webm" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
 
@@ -50,7 +49,7 @@ export default function Home() {
               <Overview />
               <Hover />
             </section>
-            
+
           </div>
         </section>
 
