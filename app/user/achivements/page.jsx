@@ -5,7 +5,7 @@ import Link from 'next/link'
 const page = () => {
     return (
          <div className='bg-black text-white min-h-screen'>
-            <div className='max-md:hidden'>
+            <div className='max-lg:hidden'>
                 <TargetCursor
                     spinDuration={2}
                     hideDefaultCursor={true}
@@ -15,7 +15,7 @@ const page = () => {
             <div className="about bg-black text-white  font-title">
                 <div className="aboutus">
                 </div>
-                <div className="backgroundimg w-[100%] h-[65vh] bg-cover bg-center" style={{ backgroundImage: "url('/success-achieving-goals-silhouette-businessman-260nw-2421512117.webp')" }}>
+                <div className="backgroundimg w-[100%] h-[65vh] bg-cover bg-center" style={{ backgroundImage: "url('/success-achieving-goals-silhouette-businessman-260nw-2421512117.jpg')" }}>
                     <div className="info flex justify-start items-center h-[80vh]">
                         <div className="aboutUs flex flex-col pl-5">
                             <div className="ab text-5xl text-orange-600 font-bold max-sm:text-3xl">
