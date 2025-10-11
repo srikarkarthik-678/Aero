@@ -45,10 +45,10 @@ const Hero = () => {
 
     return (
         <div className="herosection bg-transparent text-white font-title flex justify-center items-center">
-            <div className="aerodetails flex justify-between items-center h-[70vh] w-[100%] px-14 py-2 max-md:h-[90vh] max-sm:px-6 max-sm:py-1 max-sm:h-[95vh]">
-                <div className="select flex justify-between w-[100%] items-center bg-neutral-800 p-10 rounded-xl max-lg:flex max-lg:flex-col max-sm:p-2">
-                    <div className="Aerotitle flex flex-col max-lg:flex max-lg:flex-col max-lg:justify-center max-lg:items-center">
-                        <div className="team text-2xl text-gray-600 select-none max-sm:text-base">
+            <div className="aerodetails flex justify-between items-center h-[70vh] w-[100%] px-14 py-2 max-md:h-[90vh] max-sm:px-6 max-sm:py-1 max-sm:h-[95vh] max-sm:w-[350px]">
+                <div className="select flex justify-between w-[100%] items-center bg-neutral-800 p-10 rounded-xl max-lg:flex max-lg:flex-col max-sm:p-2 max-sm:w-[300px]">
+                    <div className="Aerotitle flex flex-col max-lg:flex max-lg:flex-col max-lg:justify-center max-lg:items-center ">
+                        <div className="team text-2xl text-gray-600 select-none max-sm:text-base ">
                             Team
                         </div>
                         <div className="Aero text-6xl text-red-600 font-semibold select-none font-Aud max-md:text-3xl">
