@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Aero- A Mahindra University",
+  title: "Aero- A Mahindra University Club",
   description: "AERO is a student-driven aerospace engineering club dedicated to exploring the science and technology behind flight and space exploration. The club serves as a creative platform for aspiring engineers, innovators, and enthusiasts to design, build, and experiment with aircraft, rockets, drones, and space systems.",
   themeColor: "#000000",
 };
