@@ -5,7 +5,7 @@ import Link from 'next/link'
 const page = () => {
     return (
          <div className='bg-black text-white min-h-screen'>
-            <div className='max-lg:hidden'>
+            <div className='max-xl:hidden'>
                 <TargetCursor
                     spinDuration={2}
                     hideDefaultCursor={true}
